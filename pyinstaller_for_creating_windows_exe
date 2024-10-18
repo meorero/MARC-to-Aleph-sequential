@@ -1,0 +1,1 @@
+pyinstaller --onefile --windowed --icon=kodkod.ico  --version-file=kodkod_version_info_aaa_py_mrc_0003.py.txt aaa_py_mrc_0003.py
