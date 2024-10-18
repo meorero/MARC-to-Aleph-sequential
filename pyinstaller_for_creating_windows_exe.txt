@@ -1,0 +1,4 @@
+REM This can be used for creating an executable "EXE" in Windows. 
+REM This assumes the existing of an icon file named "kodkod.ico" and a version info file named "kodkod_version_info_aaa_py_mrc_0003.py.txt". 
+
+pyinstaller --onefile --windowed --icon=kodkod.ico  --version-file=kodkod_version_info_aaa_py_mrc_0003.py.txt aaa_py_mrc_0003.py
